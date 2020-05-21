@@ -1,0 +1,23 @@
+{
+  "name": "deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "build": "cd client && yarn && yarn build",
+    "start": "cd server && yarn && yarn start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehpc/test-heroku-owls.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ehpc/test-heroku-owls/issues"
+  },
+  "homepage": "https://github.com/ehpc/test-heroku-owls#readme"
+}
